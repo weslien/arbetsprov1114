@@ -1,6 +1,7 @@
 #Arbetsprov
 
-* Forka detta repo
+* Klona detta repo
+* Skapa en Feature branch
 * Implementera en enkel sökfunktion i enlighet med den bifogade pdf:en 
 * Sökningen skall ske mot ett valfritt publikt REST-api (vilket som helst på hela nätet) med javascript
 * Sök på titel, visa titel (eller motsvarande)
@@ -18,4 +19,4 @@ Vad vi kollar på:
 
 Lös uppgiften så långt du anser är befogat.
 
-När du är klar kan du pusha repot till din egen github och se till att länken dit kommer oss tillhanda.
+När du är klar kan du pusha din branch till origin och meddela oss att det är klart
