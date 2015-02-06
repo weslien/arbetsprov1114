@@ -1,6 +1,6 @@
 #Arbetsprov
 
-* Klona detta repo
+* Forka detta repo
 * Skapa en Feature branch
 * Implementera en enkel sökfunktion i enlighet med den bifogade pdf:en 
 * Sökningen skall ske mot ett valfritt publikt REST-api (vilket som helst på hela nätet) med javascript
@@ -19,4 +19,4 @@ Vad vi kollar på:
 
 Lös uppgiften så långt du anser är befogat.
 
-När du är klar kan du pusha din branch till origin och meddela oss att det är klart
+När du är klar kan du pusha din branch och meddela oss att det är klart, t ex genom en pull request.
