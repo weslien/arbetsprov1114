@@ -1,0 +1,19 @@
+<h1 class="logo">Playlist Maker</h1>
+
+<div class="row">
+	<div class="col-lg-12">
+		<p>Search for songs to add to your playlist.</p>
+		<input type="text" ng-model="asyncSelected" typeahead="track as (track.artists[0].name + ' - ' + track.name) for track in getTrack($viewValue)" class="form-control" placeholder="Search for songs" typeahead-on-select='onSelect($label)' autofocus />
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-lg-12">
+		<ul class="list-unstyled playlist">
+    		<li class="disc" ng-repeat="track in playlist">
+    			{{track.track}}<br />
+    			<span>Added: {{track.date | date:'dd/MM -yy HH:mm:ss'}}</span>
+    		</li>
+		</ul>
+	</div>
+</div>
