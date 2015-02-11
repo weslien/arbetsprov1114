@@ -1,0 +1,36 @@
+/* CSS assumes modern web browser for the purpose of this project */
+
+/* .container wraps the whole page */
+.container { max-width: 640px; }
+
+/* .row initiates a new "row" of content */
+.row { margin-bottom: 2em; }
+
+/* .logo */
+.logo {
+	margin-bottom: 1em;
+	padding-left: 50px;
+	background: transparent url(../images/logo.png) no-repeat left center;
+	background-size: contain;
+}
+
+/* Override search result handling from bootstrap to cope with long song names */
+.dropdown-menu {
+	max-width: calc(100% - 30px);
+	overflow: hidden;
+}
+
+/* .playlist is the playlist created when selecting songs on search */
+.playlist { padding: 0 .3em; }
+	/* .disc is the list item in playlist */
+	.disc {
+		padding: 10px 0 10px 30px;
+		background: transparent url(../images/disc.png) no-repeat left 10px;
+		background-size: 1.5em;
+	}
+		/* small date and time for saving song */
+		.disc span {
+			color: #999;
+			font-size: .8em;
+			font-style: italic;
+		}
