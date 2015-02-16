@@ -1,22 +1,13 @@
 #Arbetsprov
+Uppgiften gick ut på att skapa en sökfunktion med autocomplete, samt skapa en lista med sökresultat.
+##JS.
+Lösningen bygger på jQuery, och dess ajax-funktionalitet. Jag bestämde mig tidigt för att inte använda mig av en färdig autocomplete (typ typeAhead.js, jQuery-UI eller liknande) utan istället bygga ihop en själv. För att visa att jag kunde lösa problemet.
+##CSS.
+Jag har valt att inte använda stylys eftersom projektet var så litet (även om det hade varit skönt att ha ett mixin för t.ex. vendor-prefixes.)
+Min styling-metod bygger på ett generaliserande av beteende som sen ändras, kontextuellt. 
+##HTML.
+Jag försöker alltid att minska användandet av onödiga element och fokuserar på att få en vettig och korrekt markup. Om tid hade funnits hade jag gjort en sökresultat-sida så att appen hade varit 100% unobtrusive.
+Nu kräver den dock javascript för att utföra sitt syfte.
 
-* Forka detta repo
-* Skapa en Feature branch
-* Implementera en enkel sökfunktion i enlighet med den bifogade pdf:en 
-* Sökningen skall ske mot ett valfritt publikt REST-api (vilket som helst på hela nätet) med javascript
-* Sök på titel, visa titel (eller motsvarande)
-* Visa partiella sökresultat i en lista under sökrutan
-* När man trycker på [ENTER] skall det som är valt sparas med datum/tidsstämpel under rutan.
-* Minskar man storlek på fönstret skall innehållet anpassa sig till fönstrets bredd.
-* När man laddar om sidan skall inget sparas.
-
-Vad vi kollar på:
-
-* Hur är CSS/JS skrivet?
-* Hur är det paketerat
-* Allmän sanity check på strukturen.
-* Finns en readme och räcker den för köra igång din lösning?
-
-Lös uppgiften så långt du anser är befogat.
-
-När du är klar kan du pusha din branch och meddela oss att det är klart, t ex genom en pull request.
+#Komma igång
+Öppna index.html ;)
